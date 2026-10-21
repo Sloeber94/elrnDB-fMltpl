@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>E7030 AIRBAG - Functional description · Fiat MULTIPLA</title>
+<meta name="description" content="functional description (how the circuit works). all engines; production: da 09/03, da 04/02 a 08/03, da 06/04. Electrical equipment &gt; 1 ELECTRICAL FUNCTIONS &gt; E70 VEHICLE ELECTRONIC SYSTEMS &gt; E7030 AIRBAG &gt; E7030 AIRBAG - Functional description">
+<link rel="stylesheet" href="../ai.css">
+</head>
+<body>
+<header><a href="../index.html">Fiat MULTIPLA workshop manual: text version</a> · <a href="../guide.html">guide</a></header>
+<main>
+<nav class="crumbs"><a href="2888750.html">Electrical equipment</a> › <a href="2888751.html">1 ELECTRICAL FUNCTIONS</a> › <a href="2889510.html">E70 VEHICLE ELECTRONIC SYSTEMS</a> › <a href="2889583.html">E7030 AIRBAG</a> › <span>E7030 AIRBAG - Functional description</span></nav>
+<h1><span class="code">E7030</span> AIRBAG - Functional description</h1>
+<dl class="facts">
+<dt>Path</dt><dd>Electrical equipment &gt; 1 ELECTRICAL FUNCTIONS &gt; E70 VEHICLE ELECTRONIC SYSTEMS &gt; E7030 AIRBAG &gt; E7030 AIRBAG - Functional description</dd>
+<dt>Kind</dt><dd>functional description (how the circuit works)</dd>
+<dt>Applies to</dt><dd>all engines; production: da 09/03, da 04/02 a 08/03, da 06/04</dd>
+<dt>Interactive page</dt><dd><a href="https://sloeber94.github.io/elrnDB-fMltpl/en/#/2892671">https://sloeber94.github.io/elrnDB-fMltpl/en/#/2892671</a></dd>
+</dl>
+
+<section class="block"><p class="applies">Applies to: all engines; production: da 09/03, da 04/02 a 08/03, da 06/04</p><h3>Functional description</h3><p>The control unit for the Air Bag system 
+                              <strong>M60
+              is controlled by the ignition (INT) at pin 12 from the line protected
+              by shunt fuse B32.</strong></p><p>Pin 1 of connector A is connected to the
+              special earth
+                              <strong>C50, as are pins 17 and 32 of connector B.</strong></p><p>The side impact detection sensors 
+                              <strong>K66
+              (driver&#x27;s side) and K67 (passenger side) send signals to pins 24-26
+              and 25-27 respectively of connector B of the control unit M60.</strong></p><p>When a frontal impact of a certain severity (depending on the control strategy, data from the above two sensors and sensors incorporated in the control unit) is detected, the control unit sends control signals to operate the front modules:</p><ul><li>to driver&#x27;s Air Bag <strong>Q9, via the steering wheel clockspring
+              D47 (from pins 23-24 of connector A of M60) in the case of first
+              stage activation;</strong></li><li>to driver&#x27;s Air Bag <strong>Q9, via the steering wheel clockspring
+              D47 (from pins 19-20 of connector A of M60) in the case of second
+              stage activation;</strong></li><li>to the outer passenger Air Bag <strong>Q12 and the inner bag
+               Q13 (from pins 21-22 and 17-18 of connector A of M60);</strong></li><li>to the driver&#x27;s pretensioner <strong>Q20 (from pins 1-2 of
+              connector B of M60) and the passenger pretensioner Q21 (from pins
+              3-4 of connector B of M60).</strong></li></ul><p>A signal from passenger Air Bag disabling
+              switch 
+                              <strong>H75  reaches pin 11 of connector A of M60, supplied from
+              pin 10 of connector A of M60.</strong></p><p>When side impact of a certain severity (dependent on the software setting) is detected, the control unit sends control signals to set off the modules:</p><ul><li>to driver&#x27;s side bag <strong>Q30 (from pins 5-6 of connector
+              B of M60);</strong></li><li>to passenger side bag <strong>Q31 (from pins 9-10 connector
+              B of M60);</strong></li><li>to driver&#x27;s rear side bag <strong>Q43 (from pins 13 and 14
+              of connector B of M60);</strong></li><li>to passenger side rear air bag</li><li>to the driver&#x27;s window bag <strong>Q40 (from pins 7-8 of connector
+              B of  M60);</strong></li><li>to the passenger window bag <strong>Q41 (from pins 11-12 of
+              connector B of M60).</strong></li></ul><p>When the system self-diagnostic function
+              detects a fault or an impact is detected, control unit 
+                              <strong>M60 sends
+              a signal -from pin 8 of connector A - to the Air Bag fault warning
+              light located in instrument panel E50 - pin 27 of connector A.</strong></p><aside class="note"><img class="icon" src="../../../media/767.jpg" alt="" loading="lazy"><p>the &#x27;Air Bag fault&#x27; warning light
+              is a so-called &#x27;intelligent&#x27; warning light: thanks to a special
+              operating circuit inside the instrument, it comes on, not only to signal
+              a fault in the Air Bag system, but also if there is no connection
+              or a short circuit to earth in the circuit which connects the instrument
+              with the control unit.</p></aside><p>When the passenger Air Bag is disabled,
+              the control unit 
+                              <strong>M60 sends a signal, from pin 7 of connector
+              A, to the &#x27;passenger Air Bag deactivation&#x27; warning light, located
+              in the instrument panel E50 - pin 28 of connector A.</strong>
+                                These
+              signals are earthed and turn on the warning lights since instrument 
+                              <strong>E50
+              is ignition-activated (INT/A) - pin 19 of connector A - from a line
+              protected by fuse F1 of junction unit B1.</strong></p><p>Self-diagnostic data can be read by connecting
+              the unit to connector 
+                              <strong>R10: it receives signals from pin 6 of
+              connector A of the control unit M60 through the relevant tester
+              line.</strong></p></section>
+
+
+</main>
+<footer>Interactive version: <a href="https://sloeber94.github.io/elrnDB-fMltpl/en/">https://sloeber94.github.io/elrnDB-fMltpl/en/</a> · <a href="../llms.txt">llms.txt</a></footer>
+</body>
+</html>

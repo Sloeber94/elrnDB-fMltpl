@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>E7030 AIRBAG - Functional description · Fiat MULTIPLA</title>
+<meta name="description" content="functional description (how the circuit works). all engines; production: da 06/99 a 03/02; only with equipment: ESP and Euro 3. Electrical equipment &gt; 1 ELECTRICAL FUNCTIONS &gt; E70 VEHICLE ELECTRONIC SYSTEMS &gt; E7030 AIRBAG &gt; E7030 AIRBAG - Functional description">
+<link rel="stylesheet" href="../ai.css">
+</head>
+<body>
+<header><a href="../index.html">Fiat MULTIPLA workshop manual: text version</a> · <a href="../guide.html">guide</a></header>
+<main>
+<nav class="crumbs"><a href="2888750.html">Electrical equipment</a> › <a href="2888751.html">1 ELECTRICAL FUNCTIONS</a> › <a href="2889510.html">E70 VEHICLE ELECTRONIC SYSTEMS</a> › <a href="2889579.html">E7030 AIRBAG</a> › <span>E7030 AIRBAG - Functional description</span></nav>
+<h1><span class="code">E7030</span> AIRBAG - Functional description</h1>
+<dl class="facts">
+<dt>Path</dt><dd>Electrical equipment &gt; 1 ELECTRICAL FUNCTIONS &gt; E70 VEHICLE ELECTRONIC SYSTEMS &gt; E7030 AIRBAG &gt; E7030 AIRBAG - Functional description</dd>
+<dt>Kind</dt><dd>functional description (how the circuit works)</dd>
+<dt>Applies to</dt><dd>all engines; production: da 06/99 a 03/02; only with equipment: ESP and Euro 3</dd>
+<dt>Interactive page</dt><dd><a href="https://sloeber94.github.io/elrnDB-fMltpl/en/#/2892670">https://sloeber94.github.io/elrnDB-fMltpl/en/#/2892670</a></dd>
+</dl>
+
+<section class="block"><p class="applies">Applies to: all engines; production: da 06/99 a 03/02; only with equipment: ESP and Euro 3</p><h3>Functional description</h3><p>The control unit for the Air Bag system 
+                              <strong>M60</strong>
+                               
+              is controlled by the ignition (INT) at pin 15 from the line protected
+              by fuse 
+                              <strong>B32</strong>
+                               .</p><p>Pin 34 is connected to the specific earth 
+                              <strong>C50</strong>
+                               ,
+              like pin 40, on the &#x27;complete&#x27; versions, i.e. those with a passenger
+              Air Bag. (on versions with a driver&#x27;s Air Bag only, pin 40 is not connected).</p><p>When frontal impact of a certain severity (depending on the software setting) is detected, the control unit sends control signals to set off the modules:</p><ul><li>to driver&#x27;s Air Bag <strong>Q9</strong> , via the steering wheel
+              clockspring <strong>Q10</strong> (from pins 1 and 2):</li><li>to the outer passenger Air Bag <strong>Q12</strong> and the inner
+              one <strong>Q13</strong> (from pins 13 and 14 and 3 and 4, respectively);</li></ul><p>Pins 5 and 8 are connected to the passenger
+              Air Bag disabling switch 
+                              <strong>H75</strong>
+                               .</p><p>When the system self-diagnostic function
+              detects a fault or an impact is detected, control unit 
+                              <strong>M60</strong>
+                               
+              sends a signal -from pin 33 - to the Air Bag fault warning light
+              located in instrument panel 
+                              <strong>E50</strong>
+                               . - pin 27 of connector A.</p><aside class="note"><img class="icon" src="../../../media/767.jpg" alt="" loading="lazy"><p>the &#x27;Air Bag fault&#x27; warning light
+              is a so-called &#x27;intelligent&#x27; warning light: thanks to a special
+              operating circuit inside the instrument, it comes on, not only to signal
+              a fault in the Air Bag system, but also if there is no connection
+              or a short circuit to earth in the circuit which connects the instrument
+              with the control unit.</p></aside><p>When the passenger Air Bag is disabled,
+              the control unit 
+                              <strong>M60</strong>
+                                sends a signal, from pin 30, for the
+              &#x27;passenger Air Bag disabling&#x27; warning light, located in the instrument
+              panel 
+                              <strong>E50</strong>
+                                pin 28 of connector A.  This is an earth signal
+              and lights up the warning light because the instrument panel 
+                              <strong>E50</strong>
+                               supply
+              is controlled by the ignition (INT) pin 19 of connector A by the
+              line protected by fuse 
+                              <strong>F1</strong>
+                                of the junction unit 
+                              <strong>B1</strong>
+                               .</p><p>Side impact detection sensors 
+                              <strong>K66</strong>
+                               
+              (driver&#x27;s side) and 
+                              <strong>K67</strong>
+                                (passenger side) send signals to
+              pins 22, 24 and 23, 25 respectively of control unit 
+                              <strong>M60</strong>
+                               .</p><p>When side impact of a certain severity (dependent on the software setting) is detected, the control unit sends control signals to set off the modules:</p><ul><li>to driver&#x27;s sidebag <strong>Q30</strong> (from pins 16 and 17):</li><li>to the passenger side Air Bag <strong>Q31</strong> (from pins 18
+              and 19);</li></ul><p>The structure of the seat which houses the
+              two Side Bags is connected to earth 
+                              <strong>C50</strong>
+                               , via two earth points 
+              
+                              <strong>C51</strong>
+                                and 
+                              <strong>C52</strong>
+                               .</p><p>Self-diagnostic data may be read by connecting
+              the unit to connector 
+                              <strong>R10</strong>
+                               : this receives signals from pin
+              9 of control unit 
+                              <strong>M60</strong>
+                                through the appropriate tester line.</p></section>
+
+
+</main>
+<footer>Interactive version: <a href="https://sloeber94.github.io/elrnDB-fMltpl/en/">https://sloeber94.github.io/elrnDB-fMltpl/en/</a> · <a href="../llms.txt">llms.txt</a></footer>
+</body>
+</html>

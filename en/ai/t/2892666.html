@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>E7023 ESP - Functional description · Fiat MULTIPLA</title>
+<meta name="description" content="functional description (how the circuit works). engines: 1.9 JTD 8V; production: da 09/03, da 06/04. Electrical equipment &gt; 1 ELECTRICAL FUNCTIONS &gt; E70 VEHICLE ELECTRONIC SYSTEMS &gt; E7023 ESP &gt; E7023 ESP - Functional description">
+<link rel="stylesheet" href="../ai.css">
+</head>
+<body>
+<header><a href="../index.html">Fiat MULTIPLA workshop manual: text version</a> · <a href="../guide.html">guide</a></header>
+<main>
+<nav class="crumbs"><a href="2888750.html">Electrical equipment</a> › <a href="2888751.html">1 ELECTRICAL FUNCTIONS</a> › <a href="2889510.html">E70 VEHICLE ELECTRONIC SYSTEMS</a> › <a href="2889563.html">E7023 ESP</a> › <span>E7023 ESP - Functional description</span></nav>
+<h1><span class="code">E7023</span> ESP - Functional description</h1>
+<dl class="facts">
+<dt>Path</dt><dd>Electrical equipment &gt; 1 ELECTRICAL FUNCTIONS &gt; E70 VEHICLE ELECTRONIC SYSTEMS &gt; E7023 ESP &gt; E7023 ESP - Functional description</dd>
+<dt>Kind</dt><dd>functional description (how the circuit works)</dd>
+<dt>Applies to</dt><dd>engines: 1.9 JTD 8V; production: da 09/03, da 06/04</dd>
+<dt>Interactive page</dt><dd><a href="https://sloeber94.github.io/elrnDB-fMltpl/en/#/2892666">https://sloeber94.github.io/elrnDB-fMltpl/en/#/2892666</a></dd>
+</dl>
+
+<section class="block"><p class="applies">Applies to: engines: 1.9 JTD 8V; production: da 09/03, da 06/04</p><h3>Functional description</h3><p>The ABS electronic control unit 
+                              <strong>M50 is
+              supplied (at pins 2 and 6) directly by the battery via a line protected
+              by ABS maxifuse B7.</strong>
+                                The supply controlled by the ignition (15/54) reaches
+              pin 23 from the line protected by the specific fuse
+                              <strong>B31.</strong>
+                               
+              The control unit is earthed via pins 1 and 5.</p><p>The four sensors 
+                              <strong>K70, K71, K75, K76</strong>
+                               send
+              wheel speed signals to pins 28-12, 15-16, 13-14 and 30-31 of 
+                              <strong>M50</strong>
+                               
+              respectively.</p><p>The brake pedal switch 
+                              <strong>I30 with the N.A.
+              contact sends an enablement signal to pin 32 of control unit M50;</strong>
+                               
+              this signal arrives from the line controlled by the ignition (INT) protected
+              by fuse 
+                              <strong>F1 of the junction unit (it involves the same signal
+              that lights up the brake lights 
+                                 See
+		E2021
+		BRAKE LIGHTS
+                                  .</strong></p><p>The switch for the brake pedal
+                              <strong>I30 with
+              an N.C. contact, on the other hand, sends a go ahead signal to pin
+              20 of control unit M50;</strong>
+                                this signal arrives via the line
+              controlled by the ignition (INT) protected by shunt fuse 
+                              <strong>B10.</strong></p><p>Steering sensor 
+                              <strong>K58 is supplied by ABS
+              control unit M50 at pin 39 and receives a reference earth from pin
+              21: the signal that detects sudden changes in steering direction
+              is sent via the CAN line to engine management control unit  M1 and
+              to the ABS control unit M50, pins 24 and 40.</strong></p><p>Yaw sensor  
+                              <strong>K74</strong>
+                                is supplied from
+              ABS control unit  
+                              <strong>M50</strong>
+                                at pin 39, while it receives a reference
+              earth from pin 21: control and command signals are exchanged with
+              ABS control unit 
+                              <strong>M50</strong>
+                               , at pins 8, 9, 10 and 41.</p><p>Pressure sensor 
+                              <strong>K72</strong>
+                                is supplied
+              from ABS control unit 
+                              <strong>M50</strong>
+                                at pin 42, while it receives a
+              reference earth from pin 25: the pressure detection signal is sent
+              to pin 26 of  ABS control unit 
+                              <strong>M50</strong>
+                               .</p><p>The ABS control unit 
+                              <strong>M50 is connected,
+              via the special CAN line, from pin 22, to the instrument panel E50
+              to manage the ABS failure warning light, the EBD warning light and
+              the ASR/ESP warning light.</strong></p><p>The ASR OFF button, located in the switch
+              unit 
+                              <strong>H90, connector C, sends a deactivation signal to pin 27
+              of M50, whilst the signal that switches on the LED when the system
+              is switched off is sent from pin 18;</strong>
+                                ; switch 
+                              <strong>H90C is supplied
+              by the line controlled by the ignition (INT) protected by shunt
+              fuse B10.</strong></p><p>The autodiagnostic data can be read by connecting
+              to connector R10: it receives signals from pin 11 of the control
+              unit M50 via the special diagnostic line.</p></section>
+
+
+</main>
+<footer>Interactive version: <a href="https://sloeber94.github.io/elrnDB-fMltpl/en/">https://sloeber94.github.io/elrnDB-fMltpl/en/</a> · <a href="../llms.txt">llms.txt</a></footer>
+</body>
+</html>

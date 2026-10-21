@@ -1,0 +1,411 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Introduction - LPG FUEL SYSTEM. · Fiat MULTIPLA</title>
+<meta name="description" content="system description. engines: 1.6 16v; all production periods; only with equipment: GPOWER. Descriptions &gt; 10 ENGINE UNIT &gt; 1057 LPG FUEL SYSTEM. &gt; Introduction - LPG FUEL SYSTEM.">
+<link rel="stylesheet" href="../ai.css">
+</head>
+<body>
+<header><a href="../index.html">Fiat MULTIPLA workshop manual: text version</a> · <a href="../guide.html">guide</a></header>
+<main>
+<nav class="crumbs"><a href="2888211.html">Descriptions</a> › <a href="2888212.html">10 ENGINE UNIT</a> › <a href="2888257.html">1057 LPG FUEL SYSTEM.</a> › <span>Introduction - LPG FUEL SYSTEM.</span></nav>
+<h1>Introduction - LPG FUEL SYSTEM.</h1>
+<dl class="facts">
+<dt>Path</dt><dd>Descriptions &gt; 10 ENGINE UNIT &gt; 1057 LPG FUEL SYSTEM. &gt; Introduction - LPG FUEL SYSTEM.</dd>
+<dt>Kind</dt><dd>system description</dd>
+<dt>Applies to</dt><dd>engines: 1.6 16v; all production periods; only with equipment: GPOWER</dd>
+<dt>Interactive page</dt><dd><a href="https://sloeber94.github.io/elrnDB-fMltpl/en/#/2892434">https://sloeber94.github.io/elrnDB-fMltpl/en/#/2892434</a></dd>
+</dl>
+
+<section class="block"><p class="applies">Applies to: engines: 1.6 16v; all production periods; only with equipment: GPOWER</p><h2>CONSTRUCTION FEATURES</h2><p>The dual fuel system consists of a Magneti
+Marelli IAW 4EF.G1 basic system for petrol operation and an integral
+system (Metatron METAFUEL 5D0) for LPG operation.   Both systems
+are connected via a high-speed CAN line.</p><p>The Marelli IAW 4EF.G1 system belongs to the integrated system category with:</p><ul><li>inductive discharge digital electronic ignition</li><li>static distribution</li><li>sequential, phased electronic injection (1-3-4-2).</li></ul><p>The Vialle/ Metatron METAFUEL 5D0.2B0 system belongs to the integrated system category with:</p><ul><li>sequential, phased electronic injection (1-3-4-2).</li></ul><p>All parts of the LPG system are transparent
+to the basic system and it does not alter the operation of the basic
+system in any service conditions.</p><p>Both control units share certain system
+elements.   The sharing is transparent to the base system.</p><p>The list of components shared between the two systems via parallel connections is as follows:</p><ul><li>pressure sensor in the inlet manifold.</li><li>throttle position sensor;</li><li>engine rpm sensor;</li><li>engine timing sensor</li><li>Lambda sensor upstream of converter</li></ul><p>The list of additional components for the LPG system is as follows:</p><ul><li>METAFUEL 5D0 LPG injection electronic unit</li><li>LPG pressure sensor in the injector rail;</li><li>relay for  LPG cut-out solenoid on tank</li><li>LPG cut-out solenoid on tank</li><li>LPG cut-out relay on pressure regulator</li><li>LPG/petrol selector;</li><li>LPG injector relay;</li><li>LPG injectors</li><li>petrol pump cut-out relay;</li><li>LPG level sensor</li><li>LPG pump</li></ul><figure class="photo"><img class="zoomable" src="../../../media/2033081.jpg" alt="" loading="lazy"></figure><p>1, LPG engine control unit
+	2, LPG injector supply relay
+	3, Battery
+	4, Ignition switch
+	5, Petrol or LPG operating mode selector
+	6, Petrol operating mode (Power Mode) green warning light
+	7, LPG level gauge
+	8, Tester connection
+	9, Relay controlling LPG pump and LPG solenoids (on tank and
+pressure regulator)
+	10, LPG level sensor
+	11, Intake solenoid on tank
+	12, LPG tank
+	13, One-way LPG return valve on tank
+	14, Inertia switch
+	15, Fuel pump
+	16, Fuel pump cut-out relay
+	17, Lambda sensor upstream of catalytic converter
+	18, Stop solenoid on the pressure regulator
+	19, LPG pressure sensor
+	20, LPG pressure regulator unit
+	21, Intake air temperature and pressure sensor
+	22, Engine timing sensor
+	23, Engine rpm and TDC sensor
+	24, LPG injectors
+	25, Petrol engine control unit
+	26, Throttle valve position sensor</p><h2>OPERATION</h2><p>The system can operate in two modes: petrol
+and LPG  Both control units are permanently activated during engine
+operation.</p><p>Switching between them can take place as follows</p><ul><li>manually via a selector on the dashboard</li><li>automatically, determined by the METAFUEL 5D0 unit when
+the LPG has run out or under specific recovery conditions</li></ul><p>The operating mode is indicated by means
+of a PETROL operation warning light (POWER MODE) on the control
+panel.   Regardless of the selector key position, this indicator
+indicates LPG operation if off and petrol operation if on.</p><aside class="note"><img class="icon" src="../../../media/767.jpg" alt="" loading="lazy"><p>For reasons connected with PETROL
+pump supply cut-off relay diagnosis, the PETROL warning light goes
+off after a certain time lag if the car is started in PETROLmode
+and then switched to LPG.</p></aside><p>Both electronic units are joined by a CAN
+communication line that is used to exchange data, commands and other
+information for correct management of both control units.</p><h3>Diagram of input/output information from the control
+unit</h3><p>The petrol engine control unit and the LPG
+engine control unit communicate via CAN line</p><figure class="photo"><img class="zoomable" src="../../../media/2033082.jpg" alt="" loading="lazy"></figure><p>1, LPG engine control unit
+	2, LPG tank submerged pump
+	3, LPG pump control relay and LPG solenoid (on tank and pressure
+regulator)
+	4, LPG uptake and arrest solenoids
+	7, LPG level gauge on the instrument panel
+	6, LPG level sensor
+	7, LPG pressure sensor on the pressure regulator
+	8, Lambda sensor upstream of the converter
+	9, Diagnostic equipment connection
+	10, Petrol or LPG operating mode selector
+	11, LPG injectors
+	12, LPG injector supply relay
+	13, Battery
+	14, Ignition switch
+	15, Fuel pump cut-off relay
+	16, Electric petrol pump
+	17, Throttle valve position sensor
+	18, Air pressure sensor
+	19, Petrol engine control unit
+	20, Rpm and TDC sensor
+	21, Engine timing sensor</p><h2>OPERATING STRATEGIES</h2><h3>Petrol operation</h3><p>During this operating mode, the system works
+in the same way as the basic system</p><p>The basic Magneti Marelli 4EF.G1 electronic
+unit does not change its behaviour and the system management strategies
+are as for the basic version.</p><p>The specific parts of the LPG system do
+not interfere with the basic system in any way.</p><h3>Lpg operation</h3><p>The engine works on methane from start-up
+(naturally with the selector set to LPG mode before starting). 
+ The petrol pump is consequently deactivated during LPG operation,
+except during start-up when it is active for a few seconds during
+LPG injection activation in order to diagnose the deactivation relay.</p><p>The METAFUEL 5D0 manages phased sequential
+LPG injection, activation of the LPG cut-off solenoids and fuel
+pump deactivation.   All other engine control functions, including
+the ignition advance, are managed by the base unit.  The injection is
+activated directly by controlling special LPG system injectors.
+ The ignition advance is adjusted by sending the basic electronic
+unit the advance change to be added to that applied during petrol
+operation.  This communication takes place via the CAN line between
+the two control units.  Other basic electronic unit functions are
+managed normally and all input signals remain unaltered.   All commands
+are implemented as normal (stepper, ignition etc.).</p><p>The METAFUEL electronic unit processes information
+from the basic system sensor, information received via the CAN line from
+the 4EF.G1 control unit and information from additional LPG operation
+sensors to recognise system operating conditions and generate LPG
+injector commands</p><p>The LPG cut-off solenoids are activated
+and the petrol pump is deactivated upon switching from Petrol to
+LPG.  When the system is switched from LPG -Petrol, the METAFUEL
+5D0 works in the opposite way (i.e. the LPG cut-off solenoid is
+deactivated and the fuel pump is reactivated). In this case, the
+pump is turned on  immediately to pressurise the system.</p><p>Management strategies use typical curves
+and parameters stored in the METAFUEL 5D0 electronic unit.   Calibration
+values are defined on the basis of performance, fuel consumption,
+emission and handling objectives.</p><p>Management strategies specific to the LPG system are essentially as follows:</p><ul><li>Engine signal framework management</li><li>Ignition management</li><li>Injection management</li><li>Idle speed management</li><li>System self-adaptation</li><li>Start-up</li><li>Acceleration and deceleration</li><li>Operation during cut-off</li><li>Operation under full load conditions;</li><li>Protection against excess rpm</li><li>Barometric correction</li><li>Fuel vapour recovery</li><li>Control of combustion gas - Preconverter lambda sensor</li><li>Air conditioning compressor connection</li><li>LPG level indication</li><li>Fuel pump control</li><li>LPG pump control</li><li>LPG cut-off solenoids and LPG pump control</li><li>LPG injector control</li><li>Switching betweenn both operating modes (Petrol and
+LPG)</li><li>Connection to electronic key (Fiat CODE)</li><li>System self-diagnosis</li></ul><h3>Engine signal framework management</h3><p>The METAFUEL electronic control unit recognises
+the engine phase and determines the injection timing angle.   Recognition
+takes place by processing signals from the timing sensor and the
+rpm and TDC sensor.   These two signals make up the engine signal
+framework</p><figure class="photo"><img class="zoomable" src="../../../media/2033083.jpg" alt="" loading="lazy"></figure><h3>Ignition management</h3><p>The coil charge time and the ignition time
+in relation to TDC are always determined and managed by the basic
+electronic control unit, which receives the advance change to be
+applied from the METAFUEL 5D0 unit via CAN.</p><p>The METAFUEL 5D0 unit contains an advance
+change value map based on engine speed and load.   The advance correction calculation
+chain involves selection of a baseline value and its correction
+according to coolant temperature.</p><figure class="photo"><img class="zoomable" src="../../../media/2033084.jpg" alt="" loading="lazy"></figure><h3>The advance correction calculation chain involves
+selection of a baseline value and its correction according to coolant
+temperature.</h3><p>The aim of fuel management is to deliver
+the amount of fuel required to meet performance and engine fuel
+consumption and emissions targets.   The METAFUEL 5D0 unit does
+not manage the start-up stage.</p><p>Injection is phased, sequential.</p><p>The METAFUEL 5D0 control unit uses an indirect
+engine load measurement system (speed-density)   This method is
+used to calculate the amount of fuel to be injected into each cylinder
+for each engine cycle.</p><p>LPG is delivered by modulating injector
+opening time. Injector input pressure is governed by the pressure
+reduction unit.</p><p>The METAFUEL unit injection strategies allow
+the engine to be supplied with the correct amount of methane under
+all service conditions (acceleration, deceleration, altitude, cold).</p><h3>Idle speed management</h3><p>Idle speed management (stepper management)
+is managed by the basic electronic unit.   The METAFUEL 5D0 unit
+alters idle speed by means of an offset sent via the CAN network.</p><figure class="photo"><img class="zoomable" src="../../../media/2033085.jpg" alt="" loading="lazy"></figure><h3>Self-adaptation of the system</h3><p>Self-adaptive strategies allow the injection
+control to be adjusted to system shifts due to output dispersion
+and engine ageing.</p><h3>Start-up</h3><p>The engine is always started using petrol.</p><figure class="photo"><img class="zoomable" src="../../../media/2033086.jpg" alt="" loading="lazy"></figure><h3>Acceleration and deceleration</h3><p>These operational conditions are indicated
+by means of throttle and manifold pressure signals.</p><p>During these two stages, the METAFUEL 5D0
+unit adjusts fuel injection as quickly as possible to maximise acceleration torque
+and optimise handling during deceleration.</p><figure class="photo"><img class="zoomable" src="../../../media/2033087.jpg" alt="" loading="lazy"></figure><h3>Operating with cut-off</h3><p>The fuel cut-off strategy is implemented
+upon recognition of throttle closed with engine speed high. This
+strategy is enabled only above a given coolant temperature value.
+  The METAFUEL 5D0 electronic unit manages input and output from
+this stage to reduce emissions during this engine operating stage.</p><figure class="photo"><img class="zoomable" src="../../../media/2033088.jpg" alt="" loading="lazy"></figure><h3>Operation in full load conditions</h3><p>Full-load service conditions are managed
+by the METAFUEL 5D0 electronic unit by means air-LPG mixture enrichment strategies
+similar to those applied by petrol engine control systems.</p><h3>Protection against excess rpm</h3><p>The METAFUEL 5D0 electronic unit protects
+the engine against excess rpm. This protection involves cancelling
+injection times when a given speed value is exceeded.   Normal injection
+is reset when speed returns to below critical levels.</p><figure class="photo"><img class="zoomable" src="../../../media/2033089.jpg" alt="" loading="lazy"></figure><h3>Barometric correction</h3><p>The METAFUEL 5D0 control unit implements
+an altitude recognition and barometric correction strategy on the
+mixture concentration.</p><figure class="photo"><img class="zoomable" src="../../../media/2033090.jpg" alt="" loading="lazy"></figure><h3>Fuel vapour recovery</h3><p>During LPG operation, the fuel canister
+purge facility is carried out by the METAFUEL 5D0 unit by sending
+the command to the base unit via the CAN line.</p><p>The LPG fuel system is sealed.   LPG pressure
+in the system never exceeds maximum load pressure under any service
+conditions. LPG vapour recovery systems are not therefore required.</p><figure class="photo"><img class="zoomable" src="../../../media/2033091.jpg" alt="" loading="lazy"></figure><h3>Control of combustion gas - lambda sensor</h3><p>The METAFUEL electronic unit uses a signal
+from the lambda sensor upstream of the catalytic converter to control
+metering of the air-LPG mixture to obtain maximum conversion efficiency.</p><p>The METAFUEL 5D0 electronic control unit
+manages heating of the two lambda sensors located upstream and downstream of
+the catalytic converter via the CAN line.</p><figure class="photo"><img class="zoomable" src="../../../media/2033092.jpg" alt="" loading="lazy"></figure><h3>Air conditioning compressor connection</h3><p>The METAFUEL 5D0 electronic control unit
+is not connected to the air conditioning system.</p><p>Compressor activation and deactivation under
+certain operating conditions, to improve engine performance, are
+regulated by the basic electronic control unit using the same procedures
+and operating conditions as the basic system.</p><h3>Lpg level indication</h3><p>The METAFUEL 5D0 receives a signal indicating
+the amount of liquid LPG in the tank from the LPG level device.
+  this information is then sent by  the METAFUEL 5D0 control unit
+to the indicator on the control panel.</p><figure class="photo"><img class="zoomable" src="../../../media/2033093.jpg" alt="" loading="lazy"></figure><h3>Petrol pump control</h3><p>The petrol pump is closed to earth by an
+inertia switch and governed by the METAFUEL 5D0 electronic unit
+via a special relay.</p><p>The pump cuts out:</p><ul><li>if switching takes place between petrol/LPG</li><li>if the inertia switch has operated.</li></ul><p>When the system is switched from LPG to
+Petrol, the METALFUEL 5D0 electronic unit immediately reactivates
+the petrol pump to pressurise the system.</p><figure class="photo"><img class="zoomable" src="../../../media/2033094.jpg" alt="" loading="lazy"></figure><h3>Lpg pump control</h3><p>The LPG pump is governed by the METAFUEL
+5D0 electronic unit by means of a duty-cycle command that permits
+5 speeds with different outputs.</p><p>Speed 1 has been found to allow correct
+engine idle operation under all engine coolant conditions.   For
+higher rpms, speed 2 covers all engine service points with limited
+noise output.</p><figure class="photo"><img class="zoomable" src="../../../media/2033095.jpg" alt="" loading="lazy"></figure><h3>Lpg and lpg pump cut-off solenoid control</h3><p>There are 2 LPG cut-off solenoids:</p><ul><li>1 solenoid on the cylinder;</li><li>1 solenoid on the pressure regulator</li></ul><p>The 2 solenoids are connected in parallel, closed to earth via the inertia switch and governed by the METAFUEL 5D0 ECU via a special relay. The solenoids are closed and the pump is turned off:</p><ul><li>if engine rpm drops below a certain level;</li><li>after about 5 seconds with the ignition switch in the
+ON position without the engine being started up (timed enablement)</li><li>if an LPG/Petrol switching command is issued;</li><li>if the inertia switch has operated.</li></ul><p>After the LPG-Petrol switch, the METAFUEL
+5D0 electronic control unit deactivates the LPG cut-off solenoids.</p><figure class="photo"><img class="zoomable" src="../../../media/2033096.jpg" alt="" loading="lazy"></figure><h3>Lpg injector control</h3><p>The operation of the LPG injectors is the
+sequential, phased type.</p><p>The timing of the injector operation varies
+according to the engine speed and pressure of the inlet air in order
+to improve the filling of the cylinders with advantages in terms
+of consumption, driveability and pollution.</p><p>The injectors are electrically supplied
+by means of a specific  relay: the lpg engine management control
+unit closes the contacts for the section relating to the LPG injectors
+according to specific situations.</p><figure class="photo"><img class="zoomable" src="../../../media/2033097.jpg" alt="" loading="lazy"></figure><h3>Switching between the two operating modes (petrol
+and lpg)</h3><p>The function is regulated by the METAFUEL
+5D0 electronic unit and a selector key on the dashboard beneath
+the speedometer The selection key contains an led that comes on
+to indicate positioning on PETROL mode.</p><p>When selector key (1) is released, the user
+has chosen to work in Gas mode (key led off). When it pressed, Petrol
+mode has been chosen (key led on). A PETROL mode operating indicator
+(2) consisting of a green warning light (POWER MODE) on the control
+panel and an LPG  level gauge consisting of a set of green leds
++ 1 yellow for reserve (3) are also present.   The LPG level gauge
+is always active, regardless of the operating mode.</p><figure class="photo"><img class="zoomable" src="../../../media/2033098.jpg" alt="" loading="lazy"></figure><p>The PETROL mode control panel indicator
+lighting strategy indicates the following regardless of selector
+key position:</p><p>a) LPG operation = lighting deactivated</p><p>b) petrol operation = lighting activated</p><p>The user can switch between the two operating
+modes at any time, provided the engine speed is lower than a certain
+rpm threshold.</p><aside class="note"><img class="icon" src="../../../media/767.jpg" alt="" loading="lazy"><p>For reasons connected with PETROL
+pump supply cut-off relay diagnosis, the PETROL warning light goes
+off a certain delay if the engine is started in PETROL mode and
+then switched to LPG.</p></aside><p>The LPG/Petrol switching strategy differs
+from the Methane/Petrol strategy because, due to the nature of the
+fuel, the fuel level sensor must be able to carry out an initial
+analysis of the amount of LPG in the tank.   This sensor can be
+used to manage the fuel level reading on the instrument panel but
+its main function is to identify a &#x27;tank not empty&#x27; condition.</p><p>LPG pressure changes in the rail are considered
+to identify the &#x27;tank empty&#x27; condition and thus an automatic return
+to Petrol mode.   The pump in the tank sets up a pressure difference
+of about 4 bars.   If the pressure difference generated by the pump disappears
+due to tank emptying, pressure in the rail quickly drops to give
+an almost immediately indication that no fuel is present.</p><p>Petrol --&gt; LPG switching</p><p>The following options are possible:</p><p>1 Manual by the user with the engine off</p><p>Selector key position: released</p><p>PETROL mode indicator light: activated</p><p>When the engine starts up, the PETROL mode
+indicator is on (activated) to indicate that the engine is running
+on petrol.   After start-up (when cranking has just finished), the
+system switches to LPG;  The PETROL warning light goes off after
+a few seconds&#x27; delay to allow diagnosis of the fuel pump deactivation
+relay.</p><p>Switching to LPG is inhibited if the LPG
+level is lower than a threshold corresponding to &#x27;tank not empty&#x27;,
+if coolant temperature is too low or if a system fault is diagnosed
+(where possible).</p><p>2 Manual by user with engine running</p><p>This operation is only possible with engine
+speed below a given rpm threshold.</p><p>Initial selector switch position: pressed</p><p>Initial PETROL mode indicator lighting:
+activated.</p><p>The user presses the selector key to start the Petrol --&gt; LPG switching function, which takes place only when the following conditions are satisfied:</p><ul><li>a) LPG pressure in cylinder within a set range;</li><li>engine coolant temperature higher than a set threshold</li><li>LPG level higher than a threshold corresponding to &#x27;tank
+not empty&#x27;;</li><li>no faults identified by the METAFUEL 5D0 electronic
+unit diagnostic function.</li></ul><p>Switching cannot take place until all the
+conditions are met.  After switching, the PETROL mode indicator
+is turned off on the control  panel.   If this is the first switch
+from LPG since Key-On, the PETROL mode warning light goes off with
+a few seconds&#x27; delay to allow diagnosis of the fuel pump deactivation
+relay.</p><p>Switching from LPG to Petrol</p><p>The following options are possible:</p><p>1 Automatic (with engine running)</p><p>Initial selector key position: released</p><p>Initial PETROL mode indicator lighting:
+deactivated</p><p>Automatic LPG --&gt; Petrol switching takes place when decided by METAFUEL 5D0 unit control strategies and only if the following conditions are met:</p><ul><li>LPG  pressure in tank outside a set range of values;</li><li>no pressure difference set up by pump</li><li>identification of system fault (where applicable)</li></ul><p>When one of the conditions is satisfied,
+switching immediately takes place from LPG to Petrol and the PETROL
+mode indicator light comes on on the control panel.   Selector key
+position remains unchanged.</p><p>After switching, the LPG operating mode
+is inhibited completely until the condition that gave rise to the
+automatic switching has been eliminated (refuelling or fault eliminated).</p><p>2 Manual by user with engine running</p><p>This operation is possible onlly if engine
+speed is lower than a set rpm threshold.</p><p>Initial selector key position: released</p><p>Initial PETROL model indicator lighting:
+deactivated</p><p>The user presses the selector key to start
+the LPG --&gt; Petrol switching function, which takes place immediately
+together with activation of the PETROL mode indicator on the control
+panel.</p><h3>Connection wtih electronic key</h3><p>The METAFUEL 5D0 control unit is not connected
+to the electronic key control unit (Fiat CODE).</p><p>The electronic key system keeps working
+only with the basic system;   Electronic key operation is guaranteed
+under all conditions because the system needs enablement from the
+PETROL control unit in order to switch to LPG and this enablement
+is given if the Fiat CODE check is OK.</p><p>Start-up using a key not stored in the Fiat
+CODE control unit is not allowed in any operating mode (petrol or
+LPG).   The vehicle customisation and key storage procedure remains
+the same and must be carried out in petrol mode.</p><h3>System self-testing</h3><p>The METAFUEL 5D0 electronic unit tests input/output
+by cyclically checking characteristic signals and internal self-diagnosis.
+If faults are detected, it stores the codes in the EEPROM (passive
+self-diagnosis).</p><p>Individual actuators can also be activated
+by the tester to check their efficiency (active self-diagnosis).</p><p>The EEPROM memory is totally deleted  by
+the tester.</p><p>Under fault conditions, the control unit
+manages alternative functions to keep the engine running sufficiently
+to enable the car to be taken back to the garage. In more severe
+cases, it automatically switches the system to petrol operating
+mode and turns off the LPG level gauge on the control panel (recovery).</p><figure class="photo"><img class="zoomable" src="../../../media/2033099.jpg" alt="" loading="lazy"></figure><h2>PASSIVE SELF-DIAGNOSIS</h2><p>The METAFUEL 5D0 ECU tests for faults in
+inputs/outputs and the electronic unit by cyclically checking the
+characteristic signals and, in the case of malfunctions, memorizing
+the relative codes in the EEPROM (passive autodiagnosis). Tests carried
+out and recovery actions are reported in the case of faults in the
+following components:</p><h3>Rail pressure sensor</h3><p>The METAFUEL 5D0 carries out the following electrical check every 4 s on the signal from the rail pressure sensor:</p><ul><li>short-circuit to earth or open circuit</li><li>short-circuit to vbattery.</li></ul><p>The control unit implements the following recovery actions if faults are detected;</p><ul><li>return to petrol operating mode followed by activation
+of the PETROL mode indicator on the control panel;</li><li>activation of warning light on control panel.</li></ul><h3>Throttle position sensor</h3><p>The METAFUEL 5D0 carries out the following electrical check every 4 s on the signal from the throttle position sensor:</p><ul><li>short-circuit to earth;</li><li>short-circuit to vbattery or open circuit.</li></ul><p>The control unit implements the following recovery actions if faults are detected;</p><ul><li>return to petrol operating mode followed by activation
+of the PETROL mode indicator on the control panel;</li><li>activation of warning light on control panel.</li></ul><h3>Lpg pressure sensor</h3><p>The METAFUEL 5D0 carries out the following electrical check cyclically on the signal from the LPG sensor:</p><ul><li>short-circuit to earth;</li><li>short-circuit to vbattery or open circuit</li></ul><p>The control unit implements the following recovery actions if faults are detected;</p><ul><li>return to petrol operating mode followed by activation
+of the PETROL mode indicator on the control panel;</li><li>activation of control panel warning light.</li></ul><p>The LPG level gauge on the control panel
+goes off.</p><h3>Lpg level sensor</h3><p>The METAFUEL 5D0 carries out the following electrical check every 131 ms on the signal from the LPG level sensor:</p><ul><li>short-circuit to earth;</li><li>short-circuit to vbattery or open circuit.</li></ul><p>The control unit implements the following recovery actions if faults are detected;</p><ul><li>return to petrol operating mode followed by activation
+of the PETROL mode indicator on the control panel;</li><li>activation of control panel warning light.</li><li>The LPG level gauge on the control panel goes off.</li></ul><h3>Can line</h3><p>The METAFUEL 5D0 carries out a functional
+test on the CAN line cyclically to check for check for breaks in
+the connection.</p><p>In this case, the control unit implements the following recovery actions:</p><ul><li>temporary return to petrol operation and thus activation
+of the PETROL mode indicator on the control panel at each break.
+ Return to LPG operation when the connection is restored, with deactivation
+of the PETROL mode indicator on the control panel;</li><li>final  return to the petrol operating mode, and thus
+activation of the PETROL mode indicator on the control panel, after 5
+breaks on a single trip and activation of the warning light on the
+control panel.</li></ul><h3>Preconverter lambda sensor</h3><p>The METAFUEL 5D0 carries out an operational
+check cyclically and indicates lambda sensor operation failure in
+the case of faults or malfunctions.</p><p>In this case, the control unit implements the following recovery actions:</p><ul><li>disables closed loop concentration check;</li><li>inhibits self-adaptive strategies.</li></ul><h3>Rpm sensor</h3><p>The METAFUEL 5D0 checks the accuracy of pulse counts from the rpm sensor facing the 58-tooth toothed wheel and indicates the following in the case of faults or malfunctions:</p><ul><li>signal not present.</li></ul><p>In this case, the control unit implements the following recovery actions:</p><ul><li>resynchronisation;</li><li>car will not start or goes off.</li></ul><h3>Timing sensor</h3><p>The METAFUEL 5D0 tests the timing sensor cyclically and indicates the following in the case of faults or malfunctions</p><ul><li>signal not plausible</li></ul><p>No recovery actions are included, the system
+works at the correct phase or incorrect by 360 degrees.</p><h3>Lpg injectors</h3><p>The METAFUEL 5D0 carries out a cyclical check on the LPG injectors and indicates the following faults</p><ul><li>open circuit on injector cold side;</li><li>short-circuit of injectors to earth;</li><li>short-circuit of injector cold side to vbattery.</li></ul><p>In this case, the control unit implements the following recovery actions:</p><ul><li>return to Petrol operating mode;</li><li>activation of warning light on control panel.</li></ul><h3>Lpg injector relay</h3><p>The METAFUEL 5D0 carries out a check on the LPG injector relay coil every 131 ms and indicates the following faults:</p><ul><li>short circuit to earth or circuit open: this diagnosis
+is possible only in Petrol operating mode;</li><li>short circuit to Vbattery: this diagnosis is possible
+only in LPG operating mode.</li></ul><p>No recovery actions are possible.</p><h3>Lpg cut-off solenoid and lpg pump relay</h3><p>The METAFUEL 5D0 carries out a check on the LPG cut-off solenoid and LPG pump relay coil every 131 ms and indicates the following faults:</p><ul><li>short circuit to earth or circuit open: this diagnosis
+is possible only in Petrol operating mode;</li><li>short circuit to Vbattery: this diagnosis is possible
+only in LPG operating mode.</li></ul><p>No recovery actions are possible.</p><h3>Fuel pump cut-off relay</h3><p>The METAFUEL 5D0 carries out a check on the FUEL pump cut-off relay coil every 131 ms and indicates the following faults:</p><ul><li>short circuit to earth or circuit open: this diagnosis
+is carried out in LPG operating mode once only upon Petrol start-up followed
+by swtching to LPG;</li><li>short circuit to Vbattery: this diagnosis is possible
+only in both LPG and Petrol operating modes.</li></ul><p>No recovery actions are possible.</p><h2>METAFUEL 5D0 INJECTION CONTROL UNIT</h2><p>The engine unit is fitted beneath the passenger
+side of the facia and is capable of withstanding high temperatures.</p><p>It is a digital type with a microprocessor,
+featuring a high calculation capacity, precision, reliability, versatility
+and low energy consumption and is maintenance-free.</p><p>The task of the electronic control unit
+is to process the signals coming from the various additional sensors
+belonging to the LPG system and sensors shared with the petrol system
+and information from the Magneti Marelli 4EF.G1 control unit through
+the application of software algorithms and control the operation
+of the actuators (in particular the LPG injectors and LPG cut-off
+solenoids) in order to ensure optimum engine operation</p><figure class="photo"><img class="zoomable" src="../../../media/2033100.jpg" alt="" loading="lazy"></figure><h3>Metafuel 5d0 control unit pin-out</h3><p>METAFUEL 5D0 CONTROL UNIT PIN-OUT</p><figure class="photo"><img class="zoomable" src="../../../media/2033101.jpg" alt="" loading="lazy"></figure><p>1, Direct supply from battery
+	2, External sensor power supply
+	3, Tester input (K - TX line)
+	4, Not connected
+	5, Not connected
+	6, Not connected
+	7, Not connected
+	8, Not connected
+	9, Not connected
+	10, Not connected
+	11, Timing sensor (negative)
+	12, Timing sensor (positive)
+	13, Not connected
+	14, Not connected
+	15, Tester input (L-RX line)
+	16, Exterior sensor power source
+	17, Not connected
+	18, Not connected
+	19, Not connected
+	20, Not connected
+	21, Not connected
+	22, Digital earth
+	23, CAN line L
+	24, Not connected
+	25, Not connected
+	26, Not connected
+	27, Direct return to battery earth
+	28, Radio earth
+	29, Not connected
+	30, LPG pressure sensor signal
+	31, Not connected
+	32, Throttle position sensor (negative)
+	33, Absolute pressure sensor (negative)
+	34, Ignition-operated power source (+15)
+	35, Preconverter lambda sensor signal (negative)
+	36, Not connected
+	37, Not connected
+	38, CAN H line
+	39, Not connected
+	40, Not connected
+	41, Not connected
+	42, LPG level sensor on tank
+	43, Throttle position sensor signal (positive)
+	44, Absolute pressure sensor signal
+	45, Not connected
+	46, Preconverter lambda sensor signal
+	47, Petrol or LPG operation selector input
+	48, Not connected
+	49, Not connected
+	50, Not connected
+	51, VRS rpm sensor (positive)
+	52 VRS rpm sensor (negative)
+	53, Not connected
+	54, LPG pump and LPG cut-off solenoid relay control
+	55, Battery earth
+	56, Cylinder no. 4 injector
+	57, Cylinder no. 2 injector
+	58, Not connected
+	59, LPG injector power supply return (INJ+)
+	60, LPG level analogue signal output
+	61, Battery earth
+	62, Battery earth
+	63, Cylinder no. 3 injector
+	64, Cylinder no. 1 injector
+	65, Not connected
+	66, LPG injector power source return
+	67, LPG pump speed control
+	68, LPG injector relay control
+	69, Not connected
+	70, Not connected
+	71, Not connected
+	72, Not connected
+	73, Not connected
+	Fuel pump deactivation relay control
+	75, Not connected
+	76, Battery earth
+	77, Not connected
+	78, Not connected
+	79, Not connected
+	80, LPG injector power source return (INJ+)</p><h2>LPG INJECTORS</h2><h3>Construction features</h3><p>The injectors are made specially for LPG
+and are fed from the side.</p><p>Due to the low electrical resistance (1.8
+Ohm) of the coil, this type of injector prevents vapour lock due
+to LPG heating because the vapourisation threshold of LPG is intrinsically
+lower than that of petrol.</p><figure class="photo"><img class="zoomable" src="../../../media/2033102.jpg" alt="" loading="lazy"></figure><p>The injectors are fitted directly to the
+intake ducts and secured by means of a universal injector holder.</p><p>The injectors are sealed by means of o-rings
+and positioned by a threaded collar.</p><p>The LPG flow from each injector  is correctly
+directed inside the intake manifold by means of a nozzle on the
+end of the injector holder.</p><p>Because the positioning of this nozzle is
+essential for correct injection, injector holder maintenance is
+left to the system manufacturer. The entire manifold must therefore
+be removed if this is necessary.</p><figure class="photo"><img class="zoomable" src="../../../media/2033103.jpg" alt="" loading="lazy"></figure><h3>Operation</h3><p>The control strategy for the injectors is
+the sequential, phased type, in other words the four injectors are
+operated individually according to the engine cylinder inlet sequence,
+whilst the supply for each cylinder can already start  when the
+inlet stroke has already started.</p><h2>LPG PIPES</h2><h3>Construction features</h3><p>LPG is directed to the injectors via a set
+of pipes in Nylon (composite material).   these connect the four
+injectors in line according to a 1-2-3-4 sequence to create a delivery
+line and a return line.</p><p>Correct positioning of the lines ensures
+optimal system operation, particularly in terms of heat exchange
+between components located in the engine bay and the pipes.</p><h2>LPG pressure sensor</h2><p>The pressure sensor (1) is fitted on the
+pressure reduction unit (2), at the intake of the LPG return line
+to the injectors (3).</p><figure class="photo"><img class="zoomable" src="../../../media/2033104.jpg" alt="" loading="lazy"></figure><h3>Construction features</h3><p>It receives a supply of 5V from the LPG
+control unit.</p><p>LPG pressure is measured at the return line
+from the injectors to provide the control unit with one of the essential
+parameters for calculating correct LPG injection time.</p></section>
+
+
+</main>
+<footer>Interactive version: <a href="https://sloeber94.github.io/elrnDB-fMltpl/en/">https://sloeber94.github.io/elrnDB-fMltpl/en/</a> · <a href="../llms.txt">llms.txt</a></footer>
+</body>
+</html>

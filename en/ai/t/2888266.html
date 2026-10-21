@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>3350E vehicle direction control system vdc · Fiat MULTIPLA</title>
+<meta name="description" content="system description. all engines; all production periods. Descriptions &gt; 33 BRAKING SYSTEM &gt; 3350 DRIVE CONTROL&#x27; &gt; 3350E vehicle direction control system vdc">
+<link rel="stylesheet" href="../ai.css">
+</head>
+<body>
+<header><a href="../index.html">Fiat MULTIPLA workshop manual: text version</a> · <a href="../guide.html">guide</a></header>
+<main>
+<nav class="crumbs"><a href="2888211.html">Descriptions</a> › <a href="2888262.html">33 BRAKING SYSTEM</a> › <a href="2888265.html">3350 DRIVE CONTROL&#x27;</a> › <span>3350E vehicle direction control system vdc</span></nav>
+<h1><span class="code">3350E</span> vehicle direction control system vdc</h1>
+<dl class="facts">
+<dt>Path</dt><dd>Descriptions &gt; 33 BRAKING SYSTEM &gt; 3350 DRIVE CONTROL&#x27; &gt; 3350E vehicle direction control system vdc</dd>
+<dt>Kind</dt><dd>system description</dd>
+<dt>Applies to</dt><dd>all engines; all production periods</dd>
+<dt>Interactive page</dt><dd><a href="https://sloeber94.github.io/elrnDB-fMltpl/en/#/2888266">https://sloeber94.github.io/elrnDB-fMltpl/en/#/2888266</a></dd>
+</dl>
+
+<section class="block"><p class="applies">Applies to: all engines; all production periods</p><h2>ESP
+vehicle stability control system</h2><p>VIEW OF ASSEMBLY</p><figure class="photo"><img class="zoomable" src="../../../media/2033137.jpg" alt="" loading="lazy"></figure><p>1 - ABS/ESP control unit
+	2 - Steering angle sensor
+	3 - Engine management control unit
+	4 - Lateral yaw/acceleration sensor
+	5 - Right front wheel sensor
+	6 - ASR off button
+	7 - Right rear wheel sensor
+	8 - Left rear wheel sensor
+	9 - ESP warning light
+	10 - EBD warning light
+	11 - ABS warning light
+	12 - Left front wheel sensor</p><h2>SPECIFCATIONS</h2><p>Driving a car in conditions that
+may lead to the limit of grip and thus of stability may be a difficult
+task for a normal driver even if the car is stable. To improve driving
+safety, it is therefore possible to fit an electronic system able
+to help the driver in this difficult task.</p><p>Systems currently used to make driving safer
+under certain conditions are mainly A.B.S. for braking control and
+T.C. and A.S.R.  traction control systems during acceleration that
+work through action on the brakes and traction/torque during acceleration
+and overrun through action on the brakes and on the engine control
+system motorized throttle (A.S.R./M.S.R.).</p><p>The ESP system (Electronic Stability Program) incorporates all the functions listed above and optimises vehicle control with the addition of specific sensors:</p><ul><li>steering angle sensor on the steering wheel</li><li>yaw/side acceleration sensor located near the centre
+of gravity beneath the central tunnel</li></ul><figure class="photo"><img class="zoomable" src="../../../media/2033138.jpg" alt="" loading="lazy"></figure><p>μ - wheel grip
+	S - slip
+	A - EBD intervention area
+	B - ABS intervention area
+	C - ESP intervention area
+	1 - Side force curve
+	2 - Longitudinal force curve</p><p>As may be seen from the grip/slip
+diagram, the ESP system covers a bigger area than a conventional
+ABS/EBD.</p><p>The ESP cannot be cut out because it is
+a safety system; the ASR/MSR function can, however, be cut out by
+means of a button on the central facia</p><p>ESP system intervention is indicated by
+a special warning light on the instrument panel node.</p><h2>Components</h2><p>The ESP system consists of:</p><ul><li>a special A.B.S.5.7 hydraulic/electronic control unit
+ (with ESP function)</li><li>interface with the CAN line resident in the ABS control
+unit for communication with the engine management control unit and
+the steering angle sensor</li><li>magnetoresistive wheel speed sensors</li><li>steering angle sensor,</li><li>yaw/side acceleration sensor integrated within a single
+component</li><li>brake fluid pressure sensor integrated in the ABS control
+unit</li><li>ESP warning light in the instrument panel</li><li>A.S.R. deactivation switch with LED in the button</li></ul><h2>OPERATION</h2><p>The ESP system continuously detects
+loss of longitudinal and transverse wheel grip under all driving
+conditions, from braking to acceleration, to ensure vehicle directionality
+and stability.</p><p>The ESP system is managed by a Bosch 5.7
+ABS ECU integral with a special hydraulic control unit that makes
+it possible for the brake system to be operated independently of
+the driver.</p><p>The control unit processes the following signals:</p><ul><li>steering angle/steering wheel rotation speed</li><li>side acceleration and yaw</li><li>motorised throttle position</li><li>wheel rpm</li><li>hydraulic braking system pressure</li></ul><p>and uses special algorithms in the software to obtain the values for dynamic control of the vehicle:</p><ul><li>longitudinal and transverse slip between wheels and
+road surface</li><li>axle drift.</li></ul><p>The system calculate actual vehicle dynamics
+from these values; identifying all critical conditions due to environmental factors,
+(e.g.  surface with poor grip) or any mistakes made by the driver
+(e.g. panic situations) to restore the car to efficient handling
+conditions by adjusting the brakes and drive torque.</p><p>The system interfaces with:</p><ul><li>the engine management control unit for torque adjustment,</li><li>the instrument panel for operating the warning lights.</li></ul><p>Information is exchanged between these components
+by means of the CAN line.</p><p>System diagnosis is carried out via a dedicated
+line (K line).</p><p>The system is linked to a power unit with
+a special brake pump; the pipes between brake pump and ABS control
+unit are also fitted with a Titaflex insert because the pipe diameter
+is bigger (6 mm) than normal pipes (4 mm). this is to prevent negative
+effects on ESP operation at low brake fluid temperatures.</p><p>The ESP comes on automatically when the
+vehicle is started up and cannot be switched off by the driver.
+the button on the central console turns off only the ASR function
+and only in recommended circumstances (see ASR system)</p><figure class="photo"><img class="zoomable" src="../../../media/2033139.jpg" alt="" loading="lazy"></figure><p>INPUT SIGNALS</p><ul><li>Wheel speed sensors (1)</li><li>Brake pedal switch (2)</li><li>ASR button (3)</li><li>Engine management control unit (4)</li><li>Handbrake lever position (5)</li><li>Warning light status indicator (6)</li><li>Yaw sensor (rotation around the vehicle vertical axis)
+(7)</li><li>Lateral acceleration sensor (7)</li><li>Steering angle/steering wheel rotation sensor (8)</li><li>Hydraulic system pressure sensor(9)</li></ul><p>OUTPUT SIGNALS</p><ul><li>Brake pressure modulation command (10)</li><li>Engine management command (4)</li><li>ESP warning light in panel (6)</li><li>ASR LED (11)</li></ul><h2>OPERATING LOGICS</h2><p>As explained previously, the
+ESP controls longitudinal vehicle slip and also transverse slip,
+i.e. vehicle lateral stability.</p><p>Vehicle lateral stability is provided by
+tyre reaction to lateral forces and depends on the strength with
+which the wheel grips the road surface.</p><p>A wheel&#x27;s adhesive force depends on vertical
+load, which depends in turn on wheel situation (supporting or unladen)
+and friction coefficient, which depends in turn on surface and tyre
+conditions.</p><p>When the vehicle is moving in a straight
+line, the effect of side forces may be disregarded, unless external
+factors increase their intensity (e.g. wind gusts or changeover
+to a different surface). Conversely, when the car corners, side
+forces increase greatly due to the increase in centrifugal force.</p><p>The action of side forces brings about a
+change in wheel drift angle and thus a change in axle drift (drift
+angle = difference between required trajectory and actual trajectory).</p><p>The side forces do not act equally on all four wheels because the wheels are not subject to the same load conditions. Wheels are loaded differently in different situations. The following situations may occur:</p><ul><li>acceleration (lightening of front axle and loading of
+rear axle)</li><li>braking (loading of front axle and lightening of rear
+axle)</li><li>right/left bend (loading of outside wheels and lightening
+of inside wheels)</li><li>cornering while accelerating/decelerating (combination
+of the above cases)</li></ul><p>If the side forces acting on individual
+wheels vary, it follows that the resultant forces acting on the
+car axles also vary. This means that if side forces acting on the
+front axle prevail over the forces acting on the rear axle or viceversa,
+the vehicle&#x27;s vertical axis (yaw axis) is subject to a rotatory
+force (moment)</p><p>The yawing moment affects car behaviour
+and generates a state of understeer or oversteer.</p><p>A vehicle is said to be understeered when
+the front axle drift angle increase to a greater extent than that
+of the rear axle when subject to increasing side acceleration. In
+this case, the car tends to go straight when turning a corner (it
+tends to take the curve wide).</p><figure class="photo"><img class="zoomable" src="../../../media/2033140.jpg" alt="" loading="lazy"></figure><p>A car is said to be oversteered
+when the rear axle drift angle increases to a greater extent than
+that of the front axis with increasing transverse acceleration.
+In this case, the vehicle tends to spin around (the rear axle tends
+to go straight and the vehicle cuts the corner.</p><figure class="photo"><img class="zoomable" src="../../../media/2033141.jpg" alt="" loading="lazy"></figure><p>To keep the influence of side forces under control and thus limit the yawing moment, the ABS 5.7 control unit must firstly compute the vehicle behaviour set by the driver on the basis of:</p><ul><li>steering angle sensor/steering wheel rotation speed</li><li>accelerator pedal position.</li><li>braking system pressure</li></ul><p>after which the control unit assesses actual vehicle behaviour by means of:</p><ul><li>the sensors on the wheels (car speed/wheel speed)</li><li>side acceleration sensor</li><li>yaw sensor.</li></ul><p>The above shows that the control unit is able to:</p><ul><li>perceive the driver&#x27;s actions because steering wheel
+position shows the number of degrees by which (large radius or short
+radius bend) and the speed with which the steering wheel is turned
+(sudden or gradual turns). Throttle position and brake pressure
+also show whether the car is accelerating or braking. In other words,
+how the driver takes the corner or deviates from a straight trajectory.</li><li>perceive actual vehicle behaviour on the basis of environmental
+variables e.g. slippery surface, car reactions to incorrect manoeuvres
+by the driver etc. in order to identify yawing moment and axle side
+slip by means of sensors on all four wheels and the yaw and side
+acceleration sensor.</li></ul><p>These two operations are necessary to compare
+the mathematical model mapped in the control unit with actual car
+behaviour in order to identify vehicle status (understeer or oversteer)
+and decide the action to be taken on the brakes and engine</p><h3>Understeering on corners</h3><p>The control unit monitors to
+detect understeer (prevalence of front axle drift) and corrects
+car behaviour by braking the wheels on the inside of the bend to
+create an opposite moment in order to bring the car toward the middle
+of the bend and reducing drive torque if necessary.</p><figure class="photo"><img class="zoomable" src="../../../media/2033142.jpg" alt="" loading="lazy"></figure><h3>Oversteering on corners</h3><p>The car detects the presence
+of oversteer (prevalence of rear axle drift) and corrects vehicle
+behaviour by braking the front wheel on the outside of the bend
+to create an opposite yawing moment, possibly augmented by an increase
+in the driving torque.</p><aside class="note"><img class="icon" src="../../../media/767.jpg" alt="" loading="lazy"><p>The system intervenes before understeer
+and oversteer reach excessive levels in order to limit countersteering manoeuvres
+that could be difficult to handle.</p></aside><figure class="photo"><img class="zoomable" src="../../../media/2033143.jpg" alt="" loading="lazy"></figure><h3>Abrupt changes in straight trajectory (swerving/overtaking)</h3><p>In the case of abrupt changes
+in trajectory (e.g. overtaking/swerving, the control unit identifies
+possible oversteer or understeer conditions and correct vehicle
+trajectory as described above.</p><h3>Abrupt change in straight trajectory (driving over
+different surfaces)</h3><p>The control unit can preceive
+deviations from the trajectory and prevalence of axle drift, and
+corrects the trajectory with appropriate actions on the brakes and
+engine.</p><h3>Brusque acceleration/deceleration</h3><p>The control unit implements the
+A.S.R. strategy controlling the vehicle&#x27;s side acceleration and
+thus regulating the action on the front and rear brakes and driving
+torque more fully than on cars with ASR only.</p><h3>Cutting out asr</h3><p>If the A.S.R. is excluded, the following functions remain active:</p><ul><li>A.B.S./E.B.D.</li><li>T.C. up to a speed of 40 km per hour</li><li>partial ESP.</li></ul><h3>Esp intervention display</h3><p>When the ESP system intervenes,
+a warning light on the control panel flashes (5 Hz c.c. 50%).</p><figure class="photo"><img class="zoomable" src="../../../media/2033144.jpg" alt="" loading="lazy"></figure><h2>Component description</h2><h3>Hydraulic system operation</h3><p>The hydraulic unit on the version
+with ESP comes with 4 additional solenoid valves.</p><p>When activated, the inlet solenoid valve
+(normally closed) can receive the additional quantity of fluid required
+to increase the pressure and brake the wheel/s.</p><p>The operating solenoid valve (normally open),
+when activated, allows the modulated pressure produced by the pump
+to be maintained in the circuit.</p><p>When the ESP does not intervene, the ECU:</p><ul><li>does not activate the inlet solenoid (N.C.) (2).</li><li>does not activate the operating solenoid (N.0.) (3).</li></ul><p>In this way the system operates like the
+Bosch 5.7 ABS.</p><figure class="photo"><img class="zoomable" src="../../../media/2033145.jpg" alt="" loading="lazy"></figure><p>During ESP intervention, the ECU:</p><ul><li>activates the hydraulic aggregate pump (1)</li><li>activates the inlet solenoid (N.C.) (2)</li><li>activates the operating solenoid (N.O.) (3).</li></ul><p>Then pressure generated by pump (1) then
+reaches the brake calipers and is modulated, upon a command by the
+electronic control unit, by the de-pressurizing (5) and pressurizing
+(6) solenoid valves.</p></section>
+
+
+</main>
+<footer>Interactive version: <a href="https://sloeber94.github.io/elrnDB-fMltpl/en/">https://sloeber94.github.io/elrnDB-fMltpl/en/</a> · <a href="../llms.txt">llms.txt</a></footer>
+</body>
+</html>

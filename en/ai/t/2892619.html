@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>E5030 PETROL ENGINE ELECTRONIC MANAGEMENT - Functional description · Fiat MULTIPLA</title>
+<meta name="description" content="functional description (how the circuit works). engines: 1.6 16v; production: fino a 05/99, da 06/99 a 03/02. Electrical equipment &gt; 1 ELECTRICAL FUNCTIONS &gt; E50 Engine control and management systems &gt; E5030 PETROL ENGINE ELECTRONIC MANAGEMENT &gt; E5030 PETROL ENGINE ELECTRONIC MANAGEMENT - Functional description">
+<link rel="stylesheet" href="../ai.css">
+</head>
+<body>
+<header><a href="../index.html">Fiat MULTIPLA workshop manual: text version</a> · <a href="../guide.html">guide</a></header>
+<main>
+<nav class="crumbs"><a href="2888750.html">Electrical equipment</a> › <a href="2888751.html">1 ELECTRICAL FUNCTIONS</a> › <a href="2889332.html">E50 Engine control and management systems</a> › <a href="2889373.html">E5030 PETROL ENGINE ELECTRONIC MANAGEMENT</a> › <span>E5030 PETROL ENGINE ELECTRONIC MANAGEMENT - Functional description</span></nav>
+<h1><span class="code">E5030</span> PETROL ENGINE ELECTRONIC MANAGEMENT - Functional description</h1>
+<dl class="facts">
+<dt>Path</dt><dd>Electrical equipment &gt; 1 ELECTRICAL FUNCTIONS &gt; E50 Engine control and management systems &gt; E5030 PETROL ENGINE ELECTRONIC MANAGEMENT &gt; E5030 PETROL ENGINE ELECTRONIC MANAGEMENT - Functional description</dd>
+<dt>Kind</dt><dd>functional description (how the circuit works)</dd>
+<dt>Applies to</dt><dd>engines: 1.6 16v; production: fino a 05/99, da 06/99 a 03/02</dd>
+<dt>Interactive page</dt><dd><a href="https://sloeber94.github.io/elrnDB-fMltpl/en/#/2892619">https://sloeber94.github.io/elrnDB-fMltpl/en/#/2892619</a></dd>
+</dl>
+
+<section class="block"><p class="applies">Applies to: engines: 1.6 16v; production: fino a 05/99, da 06/99 a 03/02</p><h3>Functional description</h3><p>The engine control unit 
+                              <strong>M10</strong><strong>monitors
+              and controls the entire electronic ignition and injection system.</strong></p><p>The control unit is supplied directly by
+              the battery - at pin 29 - by the line for the maxifuse EFI of
+                              <strong>B5</strong><strong>, through the line protected by fuse</strong><strong>B35</strong><strong>.</strong></p><p>The supply controlled by the ignition (15/54)
+              reaches pin 47 from the line protected by fuse 
+                              <strong>B25</strong><strong>.</strong></p><p>Pins 27 and 28 of the control unit 
+                              <strong>M10</strong><strong>are earthed.</strong></p><p>The main relay J10 is supplied directly by the battery from the line for the maxifuse EFI of B5.whilst the coil supply is controlled by the ignition (15/54) from the line protected by fuse B25; it is energized by an (earth) signal coming from pin 15 of the control unit M10 (safety signal which enables the fuel pump) and, as a result, sends the supply:</p><ul><li>to the injector <strong>N70</strong>  <strong>;</strong></li><li>to the coil <strong>A30</strong>  <strong>;</strong></li><li>to the Lambda sensor heater, through the line protected
+              by fuse <strong>B36</strong>  <strong>;</strong></li><li>to the vapour recovery solenoid valve <strong>L10</strong>  <strong>through
+              the line protected by fuse</strong>  <strong>B36</strong>  <strong>;</strong>  <strong></strong></li><li>to the electric fuel pump <strong>N40</strong>  <strong>;</strong>  <strong></strong></li></ul><p>The electric fuel pump 
+                              <strong>N40</strong><strong>is
+              earthed through the inertia switch</strong><strong>I50</strong><strong>which, in
+              the case of an impact, cuts off the circuit and stops the dangerous
+              supply of fuel.</strong></p><p>The control unit 
+                              <strong>M10</strong><strong>receives
+              signals from the various sensors in order to monitor all engine
+              service conditions.</strong></p><p>The sensor 
+                              <strong>K46</strong><strong>,  through a frequency
+              signal sent to pins 53 (positive) and 67 (negative) for the control
+              unit</strong><strong>M10</strong><strong>, provides information concerning the engine
+              speed: the intensity of these two signals is extremely low and therefore
+              they are appropriately shielded (pin 77).</strong></p><p>The integrated air temperature sensor 
+                              <strong>K43</strong><strong>receives a reference earth from pin 54; it sends a signal corresponding
+              to the temperature of the intake air to pin 55 of the control unit.</strong></p><p>From pin 68 of
+                              <strong>M10</strong><strong>a reference
+              supply is sent to the sensor</strong><strong>K43</strong><strong>which restores
+              a signal, at pin 75, proportional to the pressure of the intake
+              air.</strong></p><p>The butterfly position sensor 
+                              <strong>K56</strong><strong>receives
+              a 5 V supply from pin 60 and receives a reference earth from pin
+              54; it sends a signal, through a potentiometer, which is proportional to
+              the opening of the butterfly, to pin 76 of</strong><strong>M10</strong><strong>.</strong></p><p>The engine temperature sensor 
+                              <strong>K45</strong><strong>,
+              receives a reference earth from pin 54 of the control unit</strong><strong>M10</strong><strong>and supplies a signal proportional to the temperature of the
+              engine coolant to pin 62 of the control unit.</strong></p><p>The detonation sensor provides information
+              concerning the onset of detonation in the combustion chamber through
+              frequency signals: it sends two signals to pins 56 (positive) and
+              70 (negative ) of 
+                              <strong>M10</strong><strong>; these signals are also suitably
+              shielded (pin 63).</strong></p><p>The heated Lambda sensor 
+                              <strong>K40</strong><strong>provides
+              the control unit</strong><strong>M10</strong><strong>with information concerning
+              the correct composition of the air/fuel mixture: the signal is sent
+              to pin 20 of the control unit, whilst pin 9 provides the reference
+              earth: the intensity of these two signals is extremely low and therefore
+              they are appropriately shielded (pin 44).</strong>
+                                 The sensor 
+                              <strong>K40</strong><strong>is heated by a resistance to ensure correct operation, even
+              when cold; the resistance is supplied by the main relay</strong><strong>J10</strong><strong>through the line protected by fuse</strong><strong>B36</strong><strong>.</strong></p><p>The control unit 
+                              <strong>M10</strong><strong>controls
+              the opening of the injectors</strong><strong>N70</strong><strong>via special signals
+              sent from pins 71, 78 and 79.</strong>
+                                Injectors 
+                              <strong>N70</strong><strong>receive
+              a power supply to enable opening from main relay</strong><strong>J10</strong><strong>.</strong></p><p>The control unit 
+                              <strong>M10</strong><strong>also controls
+              the coil</strong><strong>A30</strong><strong>through the signals for the coil primary winding,
+              whilst the secondary winding sends the impulse to the spark plugs:
+              from pin 59 for the pair of cylinders 1 &amp; 4 and from pin 66
+              for cylinders 2 &amp; 3.</strong></p><p>The coil 
+                              <strong>A30</strong><strong>primary windings
+              receive a signal to enable opening from main relay</strong><strong>J10</strong><strong>.</strong></p><p>The idle actuator
+                              <strong>N74</strong><strong>regulates
+              the butterfly by-pass line.</strong></p><p>It is controlled by the control unit
+                              <strong>M10</strong><strong>through the signals from pins 57, 58, 64 and 65.</strong></p><p>Fuel vapour recovery solenoid 
+                              <strong>L10</strong><strong>allows
+              fuel vapours to pass through to the engine intake where they join
+              the mixture entering the combustion chamber.</strong>
+                                The
+              valve 
+                              <strong>L10</strong><strong>, supplied by the main relay</strong><strong>J10</strong><strong>,
+              is opened by the control unit when the engine is loaded by a signal
+              from pin 52 of</strong><strong>M10</strong><strong>.</strong></p><p>The control unit 
+                              <strong>M10</strong><strong>is connected
+              with the CODE control unit</strong><strong>M20</strong><strong>through the special serial
+              line from pin 13; this way, if the CODE control unit does not detect
+              a correct code, it does not give the go ahead and the engine is
+              not started up.</strong>
+                                (
+                              <a href="2889511.html">E7010 CODE</a>
+                               ).</p><p>The control unit is equipped with an auto-diagnostic
+              system which can be used by connecting the unit to the connetor 
+                              <strong>R10</strong><strong>: it receives signals from pin 25 from the control unit</strong><strong>M10</strong><strong>through the special diagnostic line.</strong>
+                                The auto-diagnostic
+              system also produces the signal for the &quot;injection failure&quot;
+              warning light in the instrument
+                              <strong>E50</strong><strong>, which comes from
+              pin 26 of the control unit</strong><strong>M10</strong><strong>.</strong></p><p>If the engine temperature is high, the control
+              unit causes the relevant warning light in the instrument panel
+                              <strong>E50</strong><strong>to come on (signal from pin 17 of</strong><strong>M10</strong><strong>).</strong></p><p>The speedometer signal (vehicle speed) reaches
+              pin 50 of the control unit
+                              <strong>M10</strong><strong>(
+                                 See
+		E4010
+		INSTRUMENT PANEL
+                                  ).</strong></p><p>The control unit 
+                              <strong>M10</strong><strong>is connected
+              with the air conditioning system through pins 41 and 48.</strong>
+                               
+              This makes it possible to adjust the engine idle speed as the load
+              increases each time the compressor is switched on or to switch off
+              the compressor in the case of high engine speed or load conditions
+              (
+                              <a href="2889470.html">E6021 COMPRESSOR ENGAGEMENT</a>
+                               ).</p><p>The control unit also controls the engine
+              cooling system: pins 14, 35 and 40 control the engagement of the
+              relevant fan (
+                              <a href="2889349.html">E5020 ENGINE COOLING</a>
+                               ).</p></section>
+<h2>Topics linked from this page (3)</h2><ul><li><a href="2889349.html">E5020 ENGINE COOLING</a> <span class="meta">chapter (index of subtopics) · engines: 1.6 16v; production: fino a 05/99, da 06/99 a 03/02; only with equipment: Air Conditioner</span></li><li><a href="2889470.html">E6021 COMPRESSOR ENGAGEMENT</a> <span class="meta">chapter (index of subtopics) · all engines; production: fino a 05/99, da 06/99 a 03/02; only with equipment: Air Conditioner</span></li><li><a href="2889511.html">E7010 CODE</a> <span class="meta">chapter (index of subtopics) · all engines; production: fino a 05/99, da 06/99 a 03/02</span></li></ul>
+
+</main>
+<footer>Interactive version: <a href="https://sloeber94.github.io/elrnDB-fMltpl/en/">https://sloeber94.github.io/elrnDB-fMltpl/en/</a> · <a href="../llms.txt">llms.txt</a></footer>
+</body>
+</html>

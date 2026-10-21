@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>E5050 DIESEL ENGINES ELECTRONIC MANAGEMENT - Functional description · Fiat MULTIPLA</title>
+<meta name="description" content="functional description (how the circuit works). engines: 1.9 JTD 8V; production: fino a 05/99, da 06/99 a 03/02. Electrical equipment &gt; 1 ELECTRICAL FUNCTIONS &gt; E50 Engine control and management systems &gt; E5050 DIESEL ENGINES ELECTRONIC MANAGEMENT &gt; E5050 DIESEL ENGINES ELECTRONIC MANAGEMENT - Functional description">
+<link rel="stylesheet" href="../ai.css">
+</head>
+<body>
+<header><a href="../index.html">Fiat MULTIPLA workshop manual: text version</a> · <a href="../guide.html">guide</a></header>
+<main>
+<nav class="crumbs"><a href="2888750.html">Electrical equipment</a> › <a href="2888751.html">1 ELECTRICAL FUNCTIONS</a> › <a href="2889332.html">E50 Engine control and management systems</a> › <a href="2889409.html">E5050 DIESEL ENGINES ELECTRONIC MANAGEMENT</a> › <span>E5050 DIESEL ENGINES ELECTRONIC MANAGEMENT - Functional description</span></nav>
+<h1><span class="code">E5050</span> DIESEL ENGINES ELECTRONIC MANAGEMENT - Functional description</h1>
+<dl class="facts">
+<dt>Path</dt><dd>Electrical equipment &gt; 1 ELECTRICAL FUNCTIONS &gt; E50 Engine control and management systems &gt; E5050 DIESEL ENGINES ELECTRONIC MANAGEMENT &gt; E5050 DIESEL ENGINES ELECTRONIC MANAGEMENT - Functional description</dd>
+<dt>Kind</dt><dd>functional description (how the circuit works)</dd>
+<dt>Applies to</dt><dd>engines: 1.9 JTD 8V; production: fino a 05/99, da 06/99 a 03/02</dd>
+<dt>Interactive page</dt><dd><a href="https://sloeber94.github.io/elrnDB-fMltpl/en/#/2892628">https://sloeber94.github.io/elrnDB-fMltpl/en/#/2892628</a></dd>
+</dl>
+
+<section class="block"><p class="applies">Applies to: engines: 1.9 JTD 8V; production: fino a 05/99, da 06/99 a 03/02</p><h3>Functional description</h3><p>The engine control unit 
+                              <strong>M10</strong><strong>monitors
+              and controls the UNIJET electronic injection system.</strong></p><p>The engine control unit 
+                              <strong>M10</strong><strong>receives
+              a supply controlled by the ignition (15/54) to pin 13 of connector
+              B from the line protected by fuse</strong><strong>B25</strong><strong>.</strong></p><p>The relay 
+                              <strong>J10</strong><strong>controls the supply
+              of the system: it is supplied by the battery, the line for maxifuse
+              UGD of</strong><strong>B5</strong><strong>, the coil is supplied by the same line
+              and is energized by an earth signal coming from the control unit</strong><strong>M10</strong><strong>, from pin 46 of connector C.  This energizing makes
+              it possible to supply pins 7, 8 and 1 of the control unit.</strong>
+                               
+              (the line which goes from
+                              <strong>J10</strong><strong>to pin 1 is also protected
+              by fuse</strong><strong>B41</strong><strong>).</strong></p><p>The relay 
+                              <strong>J15</strong><strong>is also supplied
+              by the battery, from the line for maxifuse UGD of</strong><strong>B5</strong><strong>: signals
+              arrive, from pins 30 and 52 of connector C for the control unit</strong><strong>M10</strong><strong>, which energize the relay</strong><strong>J15</strong><strong>, which
+              provides the supply for the electric fuel pump N40 which is earthed
+              through the inertia switch</strong><strong>I50</strong><strong>.</strong>
+                                In
+              case of  impact, this cuts off the circuit to prevent the danger
+              of fuel delivery.</p><p>The diesel pre-heating relay 
+                              <strong>J17</strong><strong>,
+              supplied by the battery - connector A - through the line protected
+              by fuses</strong><strong>B37</strong><strong>and</strong><strong>B39</strong><strong>, is energized
+              by the signal coming from the alternator (&quot;recharging&quot;
+              warning light signal): the pre-heating only operates when the engine
+              is running.</strong>
+                                Under these circumstances, the relay controls
+              the operation of the diesel heating resistance 
+                              <strong>O20</strong><strong>: the
+              thermal contact (connector A of</strong><strong>O20</strong><strong>) deactivates
+              the system when the heating is over.</strong></p><p>The control unit 
+                              <strong>M15</strong><strong>, which manages
+              the pre-heating of the heater plugs</strong><strong>A40</strong><strong>, is supplied
+              - connector A - directly by the battery through the line protected
+              by fuse</strong><strong>B37</strong><strong>.</strong>
+                                It receives commands from
+              pins 38 and 51 of connector C of 
+                              <strong>M10</strong><strong>which controls the timing
+              and sends a feedback signal o pin 1 of connector B of the control
+              unit.</strong>
+                                Connector B is connected to the heater plugs 
+                              <strong>A40</strong><strong>.</strong></p><p>Pins 4 and 5 of connector A of 
+                              <strong>M10</strong><strong>are
+              earthed.</strong></p><p>The control unit 
+                              <strong>M10</strong><strong>receives
+              signals from the various sensors in order to monitor all engine
+              service conditions.</strong></p><p>Rpm sensor 
+                              <strong>K46</strong><strong>supplies information
+              on engine speed via a frequency signal sent to pin 26 of connector
+              D of control unit</strong><strong>M10</strong><strong>.</strong>
+                                It receives
+              an earth signal from pin 37 of control unit connector D. Both signals
+              are weak and are therefore suitably shielded by pin 17.</p><p>Timing sensor 
+                              <strong>K47</strong><strong>is supplied
+              from pin 12 of connector D of control unit</strong><strong>M10</strong><strong>.</strong>
+                                It receives a reference earth from pin 2 of connector D
+              of control unit 
+                              <strong>M10</strong><strong>and sends it a signal of frequency
+              corresponding to the timing of pin 3 of the same connector.</strong></p><p>Engine temperature sender unit 
+                              <strong>K45</strong><strong>eceives
+              a reference earth from pin 27 of connector D of control unit</strong><strong>M10</strong><strong>and supplies a signal proportional to coolant temperature to
+              pin 36 of the same connector.</strong></p><p>Air flow meter 
+                              <strong>K41</strong><strong>receives a
+              general power supply from pin 11 of control unit connector D and
+              a reference voltage from control unit pin 1.</strong>
+                                It sends
+              pin 14 of connector D a signal proportional to air flow.
+                              <strong>K41</strong><strong>also
+              contains an air temperature sensor: the sensor reference earth is
+              supplied by pin 4 of connector D of</strong><strong>M10</strong><strong>, while an
+              air temperature signal is received by pin 23 of connector A.</strong></p><p>Accelerator pedal 
+                              <strong>K55</strong><strong>is fitted
+              with two built-in potentiometers (a main one and a safety back-up).</strong>
+                                The first receives power and earth from pins 5 and
+              23 respectively of connector C of 
+                              <strong>M10</strong><strong>and sends a corresponding
+              signal to pin 10 of the same connector.</strong>
+                                The second
+              receives power and earth from pins 21 and 8 respectively of connector
+              C of 
+                              <strong>M10</strong><strong>and sends a corresponding signal to pin 9 of
+               connector C.</strong></p><p>Fuel temperature sensor 
+                              <strong>K81</strong><strong>fitted
+              on the return manifold measures the temperature of diesel leaving
+              the injectors.</strong>
+                                It receives a reference earth from pin
+              1 of connector C of 
+                              <strong>M10</strong><strong>and sends a fuel temperature
+              signal to control unit pin 24.</strong></p><p>The supercharging sensor 
+                              <strong>K82</strong><strong>measures
+              the turbocharger pressure.</strong>
+                                It is supplied from pin
+              8 of conector D of 
+                              <strong>M10</strong><strong>and receives a reference earth
+              from control unt pin 7.</strong>
+                                The signal is sent to pin 6
+              of control unit connector D.</p><p>Fuel pressure sensor 
+                              <strong>K83</strong><strong>is responsible
+              for providing the injection control unit with a feedback signal
+              for governing pressure and injection duration.</strong>
+                                It receives
+              power and a reference earth from pins 13 and 14 respectively of
+              connector D of 
+                              <strong>M10</strong><strong>. It then sends a pressure signal to
+              pin 24 of the same connector.</strong></p><p>Fuel pressure regulator 
+                              <strong>N77</strong><strong>maintains
+              fuel pressure level constant in the accumulator.</strong>
+                                Both
+              control signals are produced by pins 31 and 21 of control unit connector
+              D.</p><p>EGR solenoid 
+                              <strong>L30</strong><strong>controls exhaust
+              gas recirculation.</strong>
+                                It is supplied from pin 37 of connector
+              C of 
+                              <strong>M10</strong><strong>and sends a signal to control unit pin 50.</strong></p><p>Pin 8 of connector B of 
+                              <strong>M10</strong><strong>receives
+              the signal coming from the brake lights switch</strong><strong>I30</strong><strong>,
+              with the supply controlled by the ignition (INT) from fuse</strong><strong>F1</strong><strong>of the junction unit</strong><strong>B1</strong><strong>(
+                                 See
+		E2021
+		BRAKE LIGHTS
+                                  ).</strong></p><p>Pin 2 of connector C of 
+                              <strong>M10</strong><strong>receives
+              a signal from the second contact of clutch pedal switch</strong><strong>I31</strong><strong>, ignition-operated (INT/A) through a line protected by fuse</strong><strong>F1</strong><strong>in junction unit</strong><strong>B1</strong><strong>.</strong></p><p>The injectors 
+                              <strong>N70</strong><strong>receive the
+              opening go ahead supply from pins 2 (cylinders 1 and 4) and 4 (cylinders
+              2 and 3) for connector E of</strong><strong>M10</strong><strong>.</strong></p><p>The engine control unit sends commands to
+              the injectors from pins 9, 7, 5 and 3 of connector E for cylinders
+              1, 2, 3 and 4, respectively.</p><p>The control unit is equipped with a self-diagnostic
+              unit that may be used by connecting the unit to connector 
+                              <strong>R10</strong><strong>via pin 28 of connector C.</strong></p><p>The autod-diagnostic system also produces
+              a signal for the &quot;injection failure&quot; warning light: the
+              instrument panel 
+                              <strong>E50</strong><strong>receives a supply controlled by
+              the ignition (INT) from the line protected by fuse</strong><strong>F1</strong><strong>in
+              the junction unit</strong><strong>B1</strong><strong>: when the earth signal arrives
+              from pin 48 of connector C, the &quot;injection failure&quot; warning
+              light comes on.</strong></p><p>An earth signal to pin 43 of connector C,
+              on the other hand, lights up the &quot;heater plugs&quot; warning
+              light.</p><p>If the engine temperature is high, the control
+              unit lights up the warning light in the instrument panel 
+                              <strong>E50</strong><strong>(signal
+              from pin 49 of connector C).</strong></p><p>The control unit 
+                              <strong>M10</strong><strong>is connected
+              with the CODE control unit</strong><strong>M20</strong><strong>through the special line
+              from pin 13 of connector C; in this way, if the CODE control unit
+              does not detect the correct code, it does not give the go ahead
+              and the engine cannot be started up.</strong></p><p>The speedometer signal (vehicle speed) reaches
+              pin 26 of connector C of the control unit 
+                              <strong>M10</strong><strong>(
+              
+                                 See
+		E4021
+		SPEEDOMETER
+                                  ).</strong></p><p>Control unit M10  is connected to the air
+              conditioning system via pin 32 of connector D and pin 3 of connector
+              B. This allows engine idling speed to be adjusted to increased engine
+              load whenever the compressor is activated, or to turn off the compressor
+              in the case of high speeds or high engine loads (
+                              <a href="2889470.html">E6021 COMPRESSOR ENGAGEMENT</a>
+                               ).</p><p>The control unit also controls the engine
+              cooling system: pin 23 of connector B, pin 15 of connector D and
+              20, 45 of connector C control activation of the relevant fan  (
+              
+                              <a href="2889349.html">E5020 ENGINE COOLING</a>
+                               ).</p></section>
+<h2>Topics linked from this page (2)</h2><ul><li><a href="2889349.html">E5020 ENGINE COOLING</a> <span class="meta">chapter (index of subtopics) · engines: 1.6 16v; production: fino a 05/99, da 06/99 a 03/02; only with equipment: Air Conditioner</span></li><li><a href="2889470.html">E6021 COMPRESSOR ENGAGEMENT</a> <span class="meta">chapter (index of subtopics) · all engines; production: fino a 05/99, da 06/99 a 03/02; only with equipment: Air Conditioner</span></li></ul>
+
+</main>
+<footer>Interactive version: <a href="https://sloeber94.github.io/elrnDB-fMltpl/en/">https://sloeber94.github.io/elrnDB-fMltpl/en/</a> · <a href="../llms.txt">llms.txt</a></footer>
+</body>
+</html>
