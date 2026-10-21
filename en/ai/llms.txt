@@ -1,6 +1,6 @@
-# Fiat MULTIPLA workshop manual (text version)
+# Fiat Multipla workshop manual (text version)
 
-> Official eLearn workshop manual for the Fiat MULTIPLA, English. Engines: 1.6 16v, 1.9 JTD 8V. Production periods: fino a 05/99, da 09/03, da 06/99 a 03/02, da 04/02 a 08/03, da 06/04, fino a 05/04. Each topic is a separate HTML page with its path, applicability, and links to and from related topics.
+> Official eLearn workshop manual for the Fiat Multipla, English. Engines: 1.6 16v, 1.9 JTD 8V. Production periods: fino a 05/99, da 09/03, da 06/99 a 03/02, da 04/02 a 08/03, da 06/04, fino a 05/04. Each topic is a separate HTML page with its path, applicability, and links to and from related topics.
 
 Start with the guide, then follow links. Use the lookups to jump from a component, fuse or operation code to its pages.
 
